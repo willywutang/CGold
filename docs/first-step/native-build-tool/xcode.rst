@@ -13,12 +13,12 @@ Xcode
 Default install with App Store
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Go to ``App Store``:
+Go to the ``App Store``:
 
 .. image:: osx-screens/xcode/01-go-to-app-store.png
   :align: center
 
-Search for ``Xcode`` application:
+Search for the ``Xcode`` application:
 
 .. image:: osx-screens/xcode/02-search-for-xcode.png
   :align: center
@@ -28,7 +28,7 @@ Run install:
 .. image:: osx-screens/xcode/03-run-install.png
   :align: center
 
-After successful install run ``Launchpad``:
+After successful installation, run ``Launchpad``:
 
 .. image:: osx-screens/xcode/04-launchpad.png
   :align: center
@@ -45,14 +45,14 @@ Success!
 
 .. note::
 
-  Other developer tools is :ref:`installed now too <osx developer tools installed>`.
+  Other developer tools are :ref:`installed now too <osx developer tools installed>`.
 
 Several/custom Xcode versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to have several ``Xcode`` versions simultaneously for testing
-purposes or you want the exact version of ``Xcode`` you can download/install
-it manually from `Apple Developers site <https://developer.apple.com/download/more/>`_.
+If you want to have several ``Xcode`` versions available simultaneously for testing
+purposes, or you want an exact version of ``Xcode``, you can download/install
+XCode manually from the `Apple Developers site <https://developer.apple.com/download/more/>`_.
 
 For example:
 
@@ -67,7 +67,7 @@ For example:
   7.2.1/
   7.3.1/
 
-Default directory and version can be checked by ``xcode-select``/``xcodebuild`` tools:
+The default directory and version can be checked by ``xcode-select``/``xcodebuild`` tools:
 
 .. code-block:: none
 
@@ -78,7 +78,7 @@ Default directory and version can be checked by ``xcode-select``/``xcodebuild`` 
   Xcode 7.3.1
   Build version 7D1014
 
-Default version can be changed by ``xcode-select -switch``:
+The default version can be changed with ``xcode-select -switch``:
 
 .. code-block:: none
 
@@ -88,7 +88,7 @@ Default version can be changed by ``xcode-select -switch``:
   Xcode 7.2
   Build version 7C68
 
-Or using environment variable ``DEVELOPER_DIR``:
+or by setting the environment variable ``DEVELOPER_DIR``:
 
 .. code-block:: none
 
